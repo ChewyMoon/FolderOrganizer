@@ -159,7 +159,7 @@ namespace FolderOrganizer
 
             Console.Write(
                 "Done! (Completed in {0}s) Press any key to exit.", 
-                Math.Round(stopwatch.ElapsedMilliseconds / 100d, 2));
+                Math.Round(stopwatch.ElapsedMilliseconds / 1000d, 2));
             Console.ReadKey(true);
         }
 
